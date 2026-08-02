@@ -1,5 +1,5 @@
 /*
- * hexdump.c - Minimal hex dump utility
+ * hexdump.c - Minimal hex dump utility (clone of `hexdump -C`)
  *
  * Reads a file using low-level POSIX I/O (open/read/close, no stdio
  * buffering) and prints each 16-byte row as:
